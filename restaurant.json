@@ -1,0 +1,93 @@
+{"intents": [
+         {"tag": "Greeting",
+         "patterns": ["hello", "hey", "hi", "whats up", "how is it going?", "hei", "Hai"],
+         "responses": ["Hello Sir/Ma'am, Welcome to Lazeez Affaire restaurant! How can I help you?"],
+         "context_set": ""
+        },
+        {"tag": "Open",
+         "patterns": ["When do you open", "At what time is the restaurant opened", "When do you close", "Open", "Close"],
+         "responses": ["We are open from 11am-8pm, Tuesday-Sunday. Monday is our rest day"],
+         "context_set": ""
+        },
+        {"tag": "Customer-Greeting1",
+         "patterns": ["Good morning"],
+         "responses": ["Good morning sir/ma'am,How can i help you..?"],
+         "context_set": ""
+        },
+        {"tag": "Customer-Greeting2",
+         "patterns": ["Good afternoon"],
+         "responses": ["Good afternoon sir/ma'am,How can i help you..?"],
+         "context_set": ""
+        },
+        {"tag": "Customer-Greeting3",
+         "patterns": ["Good evening"],
+         "responses": ["Good evening sir/ma'am,How can i help you..?"],
+         "context_set": ""
+        },
+        {"tag": "Payments",
+         "patterns": ["payment","credit","credit card","Do you accept credit card","Can i pay with credit card", "Cash", "Google Pay", "Apple Pay", "AMEX", "Debit", "Paypal","Debit card","payment methods","phone pe","paytm"],
+         "responses": ["We accept the following payment methods: Cash, VISA, Master, AMEX, PayPal, Apple Pay, Google Pay,Phone Pe,Paytm"],
+         "context_set": ""
+        },
+        {"tag": "Menu-Category",
+         "patterns": ["menu"],
+         "responses": ["Please specify the menu category:Veg or Non veg"],
+         "context_set": ""
+        },
+	   {"tag": "Food",
+         "patterns": ["food of the day", "suggestion", "recommendation", "eat"],
+         "responses": ["Today we can recommend you the Chicken Biryani Plate, you will love it :)", "Today, the restaurant chef recommends you to try the Chicken Biryani Plate",
+         "This week we recommend you to try one of the following plates: Chicken Biryani, Lamb Biryani or Chicken Tikka Masala"],
+         "context_set": ""
+        },
+        {"tag": "Delivery",
+         "patterns": ["ordering", "home", "delivery"],
+         "responses": ["Food and beverages can be delivered to your home. The delivery fee is 6 $"],
+         "context_set": ""
+        },
+        {"tag": "Vegetarian",
+         "patterns": ["Vegetarian","veg menu", "Veg-meal","Veg-Items","Veg","veg","veg items","veg-items","Veg-Meal","veg-Meal","veg-meal","vegmeal"],
+         "responses": ["For our vegetarian guests we have a special vegetarian menu which consist:Matar Mashroom,Shahi Paneer,Dal Makhani,Veg Biryani,Dal Bati Churma etc."],
+         "context_set": ""
+        },
+        {"tag": "Non-Vegetarian",
+         "patterns": ["Non-Vegetarian","non veg menu", "Non-Veg-meal","Non-Veg","non-veg","Non Veg","non veg","nonveg","NonVeg-meal","NonVeg-Items","Non-Veg-Items"],
+         "responses": ["For our Non-vegetarian guests we have a special Non-Vegetarian menu which consist Special dishes like Chicken Kebab,Mutton Currey and Lamb chumchum"],
+         "context_set": ""},
+        {"tag": "Alcohol",
+         "patterns": ["alcohol", "beer", "Cocktails", "wine", "spirits", "liquor", "drinks"],
+         "responses": ["We serve alcoholic beverages from 6pm", "To consume our alcoholic beverages you have to be at least 18 years old", "From our alcoholic beverages you can choose between beer, wine, wodka, ouzo, tequila and rum", "In our cocktail menu you find Sex on the Beach, Mai Tai, Long Island Iced Tea and Piña Colada"],
+         "context_set": ""
+        },
+        {"tag": "Location",
+         "patterns": ["Address","where is your restaurant?", "location", "locate", "map", "train", "car", "transport","Where are you located","Where is the location","Where is your location","where is your location" ],
+         "responses": ["Our restaurant is located inside the Connaught circle .Address is  Block-K,K-12,Connaught Outer Circle, Connaught Place, New Delhi.This is very close to Jantar-Mantar.If you commute by car, it takes approximately 5 minutes to reach here from India Gate and Jantar Mantar"],
+         "context_set": ""
+        },
+        {"tag": "Contact-Details",
+         "patterns": ["phone","phone number","nmbr","Do you have any contact number?","contact","mobile","contact-details","contactdetails","contactdetail", "mobileno.", "mobilenumber", "mobilenmbr", "Do you have any mobile nmbr?", "Can i get mobile number of restaurant?" ],
+         "responses": ["+918506974302"],
+         "context_set": ""
+        },
+        {"tag": "Bye",
+         "patterns": ["cya", "See you later", "Good bye", "I am leaving", "Have a good day", "bye", "cao", "see ya", "gotta go", "have to go"],
+         "responses": ["We hope you are satisfied with our service. Have a good day!", "We are looking forward to welcome you again in our restaurant"],
+         "context_set": ""
+        },
+        {"tag": "Customer-Gesture",
+         "patterns": ["thanks","thank you"],
+         "responses": ["Your Welcome Sir/Ma'am"],
+         "context_set": ""
+        },
+        {"tag": "Customer-Appreciation",
+         "patterns": ["good job","good","welldone","well done","keep it up"],
+         "responses": ["Thank you Sir/Ma'am"],
+         "context_set": ""
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["I am Sorry Sir/Ma'am,Not able to understand,Please give me more info" ],
+         "context_set": [""]
+        }
+]
+}
